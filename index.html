@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <main>
+            <div class="button js-button-campaign"><span>Обратная связь</span></div>
+        </main>
+        <div class="overlay js-overlay-campaign">
+            <div class="popup js-popup-campaign">
+
+                <form class="decor js-form-validate" action="https://formcarry.com/s/Flv4k5JVLF" method="POST" accept-charset="UTF-8">
+                    <div class="circle"></div>
+                    <div class="form-inner">
+                        <h3>Обратная связь</h3>
+                        <input id="form-name" type="text" placeholder="Имя" name="Name" class="field" required>
+                        <input id="form-mail" type="email" placeholder="Email" name="Email" class="field" required>
+                        <textarea id="form-text" placeholder="Сообщение..." name="Review" class="field" required></textarea>
+                        <input type="checkbox" id="custom-checkbox">
+                        <label for="custom-checkbox">Я согласен с политикой конфидинциальноси.</label>
+                        <input class="btn-sub" type="submit" value="Отправить">
+                    </div>
+                </form>
+
+            </div>
+            <div class="close-popup js-close-campaign"></div>
+        </div>
+        <div id="result_form"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/popups.js"></script>
+    <script src="js/btn.js"></script>
+    <script src="js/ajax.js"></script>
+</body>
+
+</html>
