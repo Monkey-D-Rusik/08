@@ -10,13 +10,13 @@ $(document).ready(function () {
             data: form_data,
             success: function (response) {
                 if(response.status == "success"){
-                alert("Успешно");
+                alert("Успешно!");
                 } else{
                     alert ("Не успешно: " + response.message);
                 }
             },
             error: function () {
-                alert("Такое сообщение от вас уже существует. Попробуйте снова");
+                alert("Такое сообщение от вас уже существует. Создайте нечто новое)");
             }
         });
     });
